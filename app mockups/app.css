@@ -1,0 +1,42 @@
+html {
+	margin: 0;
+	padding: 0;
+	}
+body { 
+	background: #fff;
+	margin: 0; 
+	padding: 0;
+	}
+.b_card
+	{
+	padding:0 0 .5em 0;
+	color:#222;
+	font:bold 30px belleza, arial,sans-serif;
+	}
+
+.c_name
+	{
+	padding:0 0 .5em 0;
+	color:#222;
+	font:bold 30px belleza, arial,sans-serif;
+	}
+
+.c_company
+	{
+	padding:0 0 0 1em;
+	color:#575757;
+	font:bold 15px helvetica,sans-serif;
+	}
+
+.email
+	{
+	padding:0 0 0 1em;
+	font:bold 15px helvetica,sans-serif;
+	color:#3333FF;
+	}
+.c_num
+	{
+	padding:0 0 0 1em;
+	font:15px arial,sans-serif;
+	color:#484848;	
+	}
