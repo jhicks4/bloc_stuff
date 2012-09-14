@@ -1,27 +1,47 @@
 <!DOCTYPE html>
-<html><head>
+<html>
+<head>
+	<link rel="stylesheet" href="app.css" type="text/css" media="Screen">
 <title>My App- Edit</title>
 </head>
 <body>
-    <h1><p>Change</p></h1>
-    
-    <form>
-First name: <input>
-Last name: <input>
-    <br>
-Company: <input>
-Ttile: <input>
-    <br>
-  email: <input>
-  phone: <input>
-  	<br>
-  <select>
-<option>friends</option>
-<option>leads</option>
-<option>work</option>
-<option>call-backs</option>
-</select>
-  <input>   
-
-  
-</form></body></html>
+	<div class="topnav">
+		<div class="centernav">Add People</div>
+    </div><form id="form5" action="/" method="post">	
+		
+		<p>					
+			<label><span class="form_name">First Name</span></label>
+			<br>				
+			<input type="text" name="fname" id="fname" size="30" />					
+		</p>
+		<p>					
+			<label class="form_name">Last Name</label>		
+			<br>
+			<input type="text" name="lname" id="lname" size="30" />					
+		</p>
+		<p>					
+			<label class="form_name">Email</label>				
+			<br>
+			<input type="text" name="email" id="email" size="30" />				
+		</p>
+		<p>
+			<label class="form_name">Company</label>				
+			<br>
+			<input type="text" name="company" id="company" size="30" />										
+		</p>			
+		<p>
+			<label class="form_name">Title</label>				
+			<br>
+			<input type="title" name="title" id="web" size="30" />										
+		</p>					
+		<select>
+		<option>friends</option>
+		<option>leads</option>
+		<option>work</option>
+		<option>call-backs</option>
+		</select>
+		<p class="submit"><button type="submit">Send</button></p>	
+		
+</form>
+</body>
+</html>
