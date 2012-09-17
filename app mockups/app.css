@@ -3,6 +3,15 @@ body {
 	margin:0em;
 	padding:0em;
 	}
+#form5 {
+	margin:auto;
+	width:450px;
+	}
+#bc_bloc {
+	margin:auto;
+	width:450px;
+	}	
+	
 .centernav {
 	margin:auto;
 	text-align: center;
@@ -18,13 +27,14 @@ body {
 	padding:.5em;
 	height:100px;
 	}	 	 
-.b_card	{
+.b_card {
 	width:225px;
 	padding:.25em 0 .25em 1em;
 	margin:1em;
 	background:#E8E8E8;
-	border:solid #D9D9D9 5px;
-	border-radius: 10px;
+	border:solid #E1E1E1 5px;
+	border-radius: 7px;
+	box-shadow: #444 0 0 10px inset; /* inset is optional */
 	}
 
 .c_name {
@@ -48,7 +58,7 @@ body {
 	font:15px arial,sans-serif;
 	color:#484848;	
 	}
-	
+/* start form code*/	
 .form_name {
 	font:bold 15px helvetica,sans-serif;
 	font-weight:bolder;
@@ -58,4 +68,26 @@ body {
 input {
 	font:bold 25px helvetica,sans-serif;
 	color:#484848;
+}
+/* css button*/
+.submit {
+	box-shadow:inset 0px 1px 0px 0px #ffffff;
+	background-color:#DDD;
+	border-radius:6px;
+	border:1px solid #dcdcdc;
+	display:inline-block;
+	color:#777777;
+	font-family:arial;
+	font-size:15px;
+	font-weight:bold;
+	padding:6px 24px;
+	text-decoration:none;
+	text-shadow:1px 1px 0px #ffffff;
+}.submit:hover {
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #dfdfdf), color-stop(1, #ededed) );
+	background:-moz-linear-gradient( center top, #dfdfdf 5%, #ededed 100% );
+	background-color:#dfdfdf;
+}.submit:active {
+	position:relative;
+	top:1px;
 }
