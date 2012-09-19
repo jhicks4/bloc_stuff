@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+		<link rel="stylesheet" href="app.css" type="text/css" media="Screen">
+		<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Belleza">
+    <title>My Cool App</title>
+  </head>
+  <body>
+	<div class="topnav">
+		<div class="centernav">People</div>
+    </div>
+	<div id="bc_bloc">
+		<ul>
+			<%# Start of business card loop. %>
+				<% for @contact in @contacts %>
+					<li>
+						<div class="b_card">
+					   	<div class="c_name">		<%= @person %></div>
+							<div class="c_company">	<%= @company %></div>
+							<div class="email">			<%= @email %></div>
+							<div class="c_num">			<%= @phone %></div>
+						</div>
+					</li>
+				<% end %>
+			<%# End of business card loop. %>			 
+		</ul>
+	</div>
+  </body>
+</html>
